@@ -2,8 +2,7 @@
 
 linkedlist::linkedlist()
 {
-  head->data = 0;
-  head->next = nullptr;
+  head = nullptr;
 }
 
 linkedlist::~linkedlist()
