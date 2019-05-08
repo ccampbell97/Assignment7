@@ -16,12 +16,14 @@ void readFile(linkedlist &list, string &file)
     list.addToFront(num);
     inputFile >> num;
   }
+
 }
 
 int main()
 {
-    linkedlist *list;
+    linkedlist list;
     string file = "input.txt";
     readFile(list, file);
+    list.printList();
     return 0;
 }
